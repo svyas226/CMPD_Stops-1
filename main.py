@@ -1,8 +1,12 @@
 import streamlit as st
 import pandas as pd
 
+st.header('This is our collab exercise')
+
 st.write('CMPD Traffic Stops')
 st.write('Stuti Vyas was here!')
+
+
 
 @st.cache_data
 def load_data(csv):
